@@ -4,8 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".ViewActivity">
+
+    <ListView
+        android:id="@+id/listviewid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="#34CC71"
+        android:divider="@color/materialPink"
+        android:dividerHeight="1.5dp"/>
 
 
 </LinearLayout>
