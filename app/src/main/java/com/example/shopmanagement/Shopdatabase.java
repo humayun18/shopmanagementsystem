@@ -104,5 +104,14 @@ public class Shopdatabase extends SQLiteOpenHelper {
         return true;
     }
 
+    public Cursor search()
+    {
+        SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
+        Cursor cursor = sqLiteDatabase.rawQuery("SELECT * FROM "+TABLE_NAME1,null);
+        return cursor;
+
+    }
+
+
 
 }
