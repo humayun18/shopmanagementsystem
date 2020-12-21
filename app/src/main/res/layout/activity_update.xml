@@ -24,6 +24,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             android:id="@+id/up1"
             android:ems="10"/>
 
@@ -46,6 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/up2"
+            android:layout_marginLeft="4dp"
             android:ems="10"/>
 
 
@@ -68,6 +70,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/up3"
+            android:layout_marginLeft="63dp"
             android:ems="10"/>
 
     </LinearLayout>
@@ -103,6 +106,7 @@
             android:id="@+id/btnupdate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
             android:background="@color/materialPink"
             android:textColor="#fff"
             android:text="Update" />
