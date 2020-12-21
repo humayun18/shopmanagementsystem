@@ -20,11 +20,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Product code"
-            android:textColor="#0F0F0F"/>
+            android:textColor="#050000"/>
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             android:id="@+id/ad1"
             android:ems="10"/>
 
@@ -41,12 +42,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Product Name"
-            android:textColor="#0F0F0F"/>
+            android:textColor="#050000"/>
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/ad2"
+            android:layout_marginLeft="4dp"
             android:ems="10"/>
 
 
@@ -63,12 +65,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Price"
-            android:textColor="#0F0F0F"/>
+            android:textColor="#050000"/>
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/ad3"
+            android:layout_marginLeft="63dp"
             android:ems="10"/>
 
     </LinearLayout>
@@ -77,14 +80,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Product details"
-            android:textColor="#0F0F0F"/>
+            android:textColor="#050000"/>
 
         <EditText
             android:layout_width="wrap_content"
@@ -108,6 +110,5 @@
             android:textColor="#fff"
             android:text="Add" />
     </LinearLayout>
-
 
 </LinearLayout>
